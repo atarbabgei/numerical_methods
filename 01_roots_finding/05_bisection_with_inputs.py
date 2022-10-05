@@ -1,10 +1,5 @@
 '''
-Method: Bisections
-Section: Roots of Higher-Degree Equations
-Course: Programming Numerical Methods in Python
-Instructor: Murad Elarbi
-File Name: PNMP_2_05.py
-Date: Aug. 6, 2017
+Method: Bisections with Inputs and y function
 ''' 
 def y(x):
     return 2*x**2 - 5*x + 3
