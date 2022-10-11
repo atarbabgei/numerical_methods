@@ -31,5 +31,5 @@ for i in range(n-2, -1, -1):
     for j in range(i+1, n):
         terms += a[i, j]*x[j]
     x[i] = (b[i] - terms)/a[i, i]
-print('The solution of the system:')
+print('The solution of the systems:')
 print(x)
